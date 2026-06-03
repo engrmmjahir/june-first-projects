@@ -1,0 +1,51 @@
+body {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: justify;
+    /* background-color: lightgreen; */
+    /* margin: 0 auto; */
+}
+
+.card {
+    width: 300px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(14, 48, 48, 0.301);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: rgba(81, 197, 226, 0.298);
+}
+
+.card h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.card button {
+    background-color: rgba(255, 228, 196, 0.411);
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(198, 238, 238);
+}
